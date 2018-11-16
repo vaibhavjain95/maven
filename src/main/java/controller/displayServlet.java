@@ -29,7 +29,7 @@ public class displayServlet extends HttpServlet {
 		String s1 = request.getParameter("no");
 		//response.getWriter().append("Served at: ").append(request.getContextPath());
 		PrintWriter pw = response.getWriter();
-		pw.println("<h1>s1</h1>");
+		pw.println("<h1>"+s1+"</h1>");
 	}
 
 	/**
